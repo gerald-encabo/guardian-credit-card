@@ -1,0 +1,84 @@
+@import "Colors";
+@import "MediaQueries.scss";
+
+.home-hero-section {
+    color: $primary;
+    padding: 160px 0;
+}
+.home-hero-row {
+    align-items: center;
+}
+.row {
+    display: flex;
+    margin: 0 -15px -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+.col {
+    margin-bottom: 15px;
+    padding: 0 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+.home-hero-text-wrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+.top-line {
+    color: $tertiary;
+    font-size: 1rem;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    margin-bottom: 16px;
+}
+.heading {
+    margin-bottom: 24px;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-weight: 600;
+    color: $senary;     
+}
+.dark {
+    color: $dark;
+}
+.darkBg {
+    background-color: $dark;
+}
+.home-hero-subtitle {
+    max-width: 440px;
+    margin-bottom: 35px;
+    font-size: 1.125rem;
+    line-height: 24px;
+}
+.home-hero-img-wrapper {
+    max-width: 555px;
+}
+.home-hero-img {
+    max-width: 95%;
+    margin: 0 0 0 10px;
+    padding-right: 0;
+}
+img {
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+@include hero-section-small-devices-v1 {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+@include hero-section-small-devices-v2 {
+    .home-hero-text-wrapper {
+      padding-bottom: 65px;
+    }  
+    .col {
+      max-width: 100%;
+      flex-basis: 100%;
+    }
+}
