@@ -2,8 +2,7 @@
 
 This credit card react app is responsive on all devices with multiple pages and components. The images used are from unDraw.co, and icons are from the built library react-icon. The main focus in this app is the React Hook (useEffect, useState), React Router, Sass (or Scss) using mixins for media queries, and variables colors.
 
-Live Site: https://guardian-credit-card.herokuapp.com/
-
+Live Site: https://guardian-credit-card.herokuapp.com/ <br />
 Default Login Account:<br />
 Username: admin@gmail.com <br />
 Password: admin
