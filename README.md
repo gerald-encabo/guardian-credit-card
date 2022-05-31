@@ -1,8 +1,8 @@
-## Guardin Credit Card - React App
+## Guardian Credit Card - React App
 
-This part 2 of Credit Cart App and here's the link: https://github.com/gerald-encabo/credit-card-app
+This project is continuation of Credit Card App primarily focus on frontend which can be found over here: https://github.com/gerald-encabo/credit-card-app
 
-For this project
+For this part 2 of this project, it will mainly on backend specifically on login, logout and registration with MongoDB as database and JSON Web Token for users authorization.
 
 Live Site: https://guardian-credit-card.herokuapp.com/ <br />
 Default Login Account:<br />
