@@ -1,6 +1,8 @@
-## Credit Card React App
+## Guardin Credit Card - React App
 
-This credit card react app is responsive on all devices with multiple pages and components. The images used are from unDraw.co, and icons are from the built library react-icon. The main focus in this app is the React Hook (useEffect, useState), React Router, Sass (or Scss) using mixins for media queries, and variables colors.
+This part 2 of Credit Cart App and here's the link: https://github.com/gerald-encabo/credit-card-app
+
+For this project
 
 Live Site: https://guardian-credit-card.herokuapp.com/ <br />
 Default Login Account:<br />
