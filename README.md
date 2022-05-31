@@ -6,8 +6,8 @@ For this project
 
 Live Site: https://guardian-credit-card.herokuapp.com/ <br />
 Default Login Account:<br />
-Username: admin@gmail.com <br />
+Username: admin@gmail.com  <br />
 Password: admin
 
-Main Page Display:
+Main Page Display: <br />
 ![Capture](https://user-images.githubusercontent.com/15988182/171069226-d2b67f2d-b305-4cc9-bf8f-a0e2bb39ae42.JPG)
