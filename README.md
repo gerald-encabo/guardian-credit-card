@@ -5,9 +5,9 @@ This project is continuation of Credit Card App primarily focus on frontend whic
 For this part 2 project, it will mainly on backend specifically on login, logout and registration with MongoDB as database and JSON Web Token for users authorization.
 
 Live Site: https://guardian-credit-card.herokuapp.com/ <br /><br />
-Default Login Account:<br />
-Username: admin@gmail.com  <br />
-Password: admin
+Default Login Account: <br />
+Username: admin@gmail.com <br />
+Password: admin <br />
 
 Main Page Display:
 
