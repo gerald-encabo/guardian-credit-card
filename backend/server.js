@@ -20,6 +20,11 @@ app.use(express.urlencoded({ extended: false }));
 // Routes
 app.use('/users', userRoutes);
 
+// Tester
+app.get("/api/test", (req, res) => {
+  res.send("test");
+})
+
 // Serve frontend
 if (process.env.NODE_ENV === 'production') {
     app.use(express.static(path.join(__dirname, '../frontend/public')));
