@@ -5,7 +5,7 @@ const API_URL = '/users';
 // SignUp user
 const signup = async (userData) => {
   const response = await axios.post(API_URL + '/signup', userData);
-  console.log('signup signup')
+
   // Store user data in local storage
   if (response.data) {
     localStorage.setItem('user', JSON.stringify(response.data));

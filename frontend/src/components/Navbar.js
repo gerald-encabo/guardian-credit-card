@@ -34,7 +34,7 @@ function Navbar() {
     // Identify current user through local storage
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const { user } = useSelector((state) => state.auth);
+    const { user } = useSelector(state => state.auth);
 
      // Call dispatch logout & reset and then redirect to homepage
     const onSignout = () => {

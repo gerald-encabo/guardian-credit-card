@@ -4,7 +4,7 @@ const asyncHandler = require('express-async-handler');
 const maxAge = 3 * 24  * 60 * 60;
 
 // Relocate user model
-const User = require('../models/userModel');
+ const User = require('../models/userModel');
 
 // SignUp User 
 const signupUser = asyncHandler(async (req, res) => {
