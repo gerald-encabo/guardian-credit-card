@@ -1,6 +1,6 @@
 ## Guardian Credit Card - React App
 
-For this part 2 project, it will mainly on backend specifically on login, logout and registration with MongoDB as database and JSON Web Token for users authorization.
+For the part two of this project, it will mainly on backend specifically on login, logout and registration with MongoDB as database and JSON Web Token for users authorization. React redux and axios is also used for manipulating data on the database and state object.
 
 Live Site: https://guardian-credit-card.vercel.app/ <br /><br />
 Default Login Account: <br />
