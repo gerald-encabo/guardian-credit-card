@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = '/users';
+const API_URL = 'https://guardian-credit-card-backend.vercel.app/users';
 
 // SignUp user
 const signup = async (userData) => {
