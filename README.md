@@ -3,7 +3,7 @@
 For the part two of this project, it will mainly on backend specifically on login, logout and registration with MongoDB as database and JSON Web Token for users authorization. Redux Toolkit and Axios is also used for accessing data on the database and state object.
 
 #### Live Site: 
-https://guardian-credit-card.vercel.app/ <br /><br />
+https://guardian-credit-card.vercel.app/
 
 #### Default Login Account: <br />
 Username: admin@gmail.com <br />
