@@ -10,8 +10,8 @@ import './SignUp.scss';
 
 function SignUp() {
 
-     // React hook to collect prompt data
-     const [formData, setFormData] = useState({
+    // React hook to collect prompt data
+    const [formData, setFormData] = useState({
         name: '',
         email: '',
         password: '',
@@ -83,7 +83,7 @@ function SignUp() {
                             type="text" 
                             id="name" 
                             name="name"
-                            vakue={name}
+                            value={name}
                             placeholder="Enter your name"
                             className="signup-input"
                             onChange={onChange} 
