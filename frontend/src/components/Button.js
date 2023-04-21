@@ -14,7 +14,8 @@ const Button = ({
 
     return (
         <button className=
-           {`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor} onClick={onClick} type={type}`}>
+           {`btn ${checkButtonStyle} ${checkButtonSize} ${checkButtonColor} onClick={onClick} type={type} aria-label="${children}"`}
+        >
            {children}
         </button>
     )

@@ -77,8 +77,8 @@ function SignUp() {
                 </div>
                 <div className="signup-container signup-side-2">
                     <p className="signup-heading">Register</p>
-                    <form onSubmit={onSubmit} className="signup-form">
-                        <label htmlForm="name" className="signup-label">Name</label>
+                    <form onSubmit={onSubmit} className="signup-form" aria-label="Signup form">
+                        <label for="name" className="signup-label">Name</label>
                         <input 
                             type="text" 
                             id="name" 
@@ -86,10 +86,11 @@ function SignUp() {
                             value={name}
                             placeholder="Enter your name"
                             className="signup-input"
-                            onChange={onChange} 
+                            onChange={onChange}
+                            aria-label="Your name"
                             required 
                         />
-                        <label htmlForm="email" className="signup-label">Email</label>
+                        <label for="email" className="signup-label">Email</label>
                         <input 
                             type="email" 
                             id="email" 
@@ -97,10 +98,11 @@ function SignUp() {
                             value={email}
                             placeholder="Enter your email"
                             className="signin-input"
-                            onChange={onChange} 
+                            onChange={onChange}
+                            aria-label="Your email"
                             required 
                         />
-                        <label htmlForm="password" className="signup-label">Password</label>
+                        <label for="password" className="signup-label">Password</label>
                         <input 
                             id="password" 
                             type="password" 
@@ -108,10 +110,11 @@ function SignUp() {
                             value={password}
                             placeholder="Enter your password"
                             className="signup-input"
-                            onChange={onChange} 
+                            onChange={onChange}
+                            aria-label="Your Password"
                             required 
                         />
-                        <label htmlForm="password2" className="signup-label">Confirm Password</label>
+                        <label for="password2" className="signup-label">Confirm Password</label>
                         <input 
                             id="password2" 
                             type="password" 
@@ -119,7 +122,8 @@ function SignUp() {
                             value={password2}
                             placeholder="Re-enter password"
                             className="signup-input"
-                            onChange={onChange} 
+                            onChange={onChange}
+                            aria-label="Confirm password"
                             required 
                         />
                         <Button buttonSize='btn-wide' buttonColor='blue'> Continue </Button>

@@ -73,7 +73,7 @@ function SignIn() {
                     <div className="signin-container signin-side-2">
                         <p className="signin-heading">Login</p>
                         <form onSubmit={onSubmit} className="signin-form">
-                            <label htmlFor="email" className="signin-label">Email</label>
+                            <label for="email" className="signin-label">Email</label>
                             <input 
                                 type="email" 
                                 id="email" 
@@ -82,9 +82,10 @@ function SignIn() {
                                 placeholder="Enter your email"
                                 className="signin-input"
                                 onChange={onChange} 
+                                aria-label="Your email"
                                 required 
                             />
-                            <label htmlFor="password" className="signin-label">Password</label>
+                            <label for="password" className="signin-label">Password</label>
                             <input 
                                 type="password" 
                                 id="password" 
@@ -92,7 +93,8 @@ function SignIn() {
                                 className="signin-input"
                                 value={password}
                                 placeholder="Enter password"
-                                onChange={onChange}  
+                                onChange={onChange}
+                                aria-label="Your password"
                                 required    
                             />
                             <Button type='submit' buttonSize='btn-wide' buttonColor='blue'>Continue</Button>
