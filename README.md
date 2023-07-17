@@ -8,12 +8,6 @@ FrontEnd is highly focus on React Hook (useEffect, useState), React Router, Sass
 #### BackEnd
 While the BackEnd is mainly about connecting to MongoDB for saving data and JSON Web Token is used for encryption of user data. RESTful API get & post for acitivity like signin, signup & signout.
 
-#### Part 1: Focus on Front-End UI developement <br/>
-https://github.com/gerald-encabo/credit-card-app
-
-#### Part 2: Add a Back-End with a feature of connecting to MongoDB for login & registration activities and RESTful API get & post<br/>
-https://github.com/gerald-encabo/guardian-credit-card
-
 #### Live Site: 
 https://guardian-credit-card.vercel.app/
 
