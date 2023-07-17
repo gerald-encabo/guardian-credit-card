@@ -1,6 +1,6 @@
 ## Guardian Credit Card
 
-This Full MERN Stack app page is responsive on all devices and different browers with multiple pages and components.
+This Full MERN Stack app page is responsive on all devices and different browser with multiple pages and components.
 
 #### FrontEnd
 FrontEnd is highly focus on React Hook (useEffect, useState), React Router, Sass (or Scss) using mixins for media queries, and variables colors. Redux is also used for user activities including login, logout and registration.
