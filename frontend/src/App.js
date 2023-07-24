@@ -10,6 +10,7 @@ import SignIn from './pages/SignIn/SignIn';
 import SignUp from './pages/SignUp/SignUp';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
               <Route path='/signup' exact element={<SignUp />} />
         </Routes>
       <Footer />
+      <Analytics />
     </BrowserRouter>
   );
 }
